@@ -61,7 +61,7 @@ nav img {
 @media screen and (max-width: 420px) {
     .card {
         width: auto;
-        margin-left: 0;
+        margin: 0px;
     }
 
     .card img, .card .portfolio {
