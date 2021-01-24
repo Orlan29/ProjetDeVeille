@@ -1,0 +1,91 @@
+li a {
+    color: #ffffff;
+    font-size: .95rem;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color:  #c2c2c2;
+}
+
+nav img {
+    border-radius: 10rem;
+}
+
+.card-text {
+    color: #454545;
+}
+
+.card img {
+    height: 250px;
+}
+
+.container-section {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    line-height: 40px;
+    margin-top: 20px;
+}
+
+.card {
+    transition: transform 300ms ease-in-out, border 200ms 100ms ease;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    border: 1px solid #00000088;
+    transform: translateY(10px);
+}
+
+.form-control:focus {
+    border-color: #15dea5;
+    box-shadow: 0 0 0 .2rem rgba(21,222,165,.25);
+}
+
+.footer {
+    color: #fff;
+}
+
+.welcome {
+    background-color: #ebebeb;
+    color: #141414;
+    padding: 5px;
+    border-radius: 3px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+  .navbar-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+} 
+
+@media screen and (max-width: 420px) {
+    .card img {
+        height: 150px;
+    }
+
+    .card-text{
+        font-size: .5rem;
+    }
+
+    .welcome {
+        font-size: .8rem;
+    }
+
+    .card-title {
+        font-size: 1.3rem;
+    }
+}

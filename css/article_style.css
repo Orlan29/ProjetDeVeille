@@ -1,0 +1,78 @@
+.nav-link {
+    color: #fff;
+    font-size: .95rem;
+}
+
+li a {
+    color: #ffffff;
+    font-size: .95rem;
+}
+
+li a:hover {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color:  #c2c2c2;
+}
+
+nav img {
+    border-radius: 10rem;
+}
+
+.card-text {
+    color: #454545;
+}
+
+.card img {
+    height: 350px;
+}
+
+.container-section {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    line-height: 40px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.card {
+    width: 150%;
+    margin-left: 150px;
+}
+
+.card .portfolio {
+    height: 450px;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+  .navbar-toggler.navbar-toggler {
+    border-color: rgb(255,255,255);
+}
+
+@media screen and (max-width: 420px) {
+    .card {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .card img, .card .portfolio {
+        height: 150px;
+    }
+
+    .card-text {
+        font-size: .5rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+}

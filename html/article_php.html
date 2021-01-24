@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/article_style.css">
+  </head>
+  <body>
+    <header>
+      <div>
+        <div class="container-fluide">
+          <nav class="col navbar navbar-expand-sm bg-dark">
+            <a href="index.html" class="nav-link navbar-brand">
+              <img src="../img/logo.jpg" alt="logo" width="30" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid container-section">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <div class="card">
+                    <img class="card-img-top" src="../img/php_code.jpg" alt="php code">
+                    <div class="card-body">
+                        <h4 class="card-title">La nouveauté de php dans la version 7.0</h4>
+                        <p class="card-text">
+                            <p>
+                            Sortie en fanfare en décembre 2015, cette seconde mise a jour du PHP 7.0 accroît fortement les performances des versions précédentes, notamment au travers de plusieurs améliorations en matière de sécurité. Ainsi, l'algorithme Argon2 qui sert au hachage sécurisé des mots de passe corrige les défauts des algorithmes actuels. Celui-ci permet notamment un taux de remplissage plus élevé de la mémoire. PHP 7.2 intègre désormais dans son noyau la bibliothèque de cryptographie Libsodium, utilisée pour le chiffrement authentifié, est désormais une extension de base et les performances de la bibliothèque pour la cryptographie sur les courbes elliptiques ont été améliorées.
+                            </p>
+                            <p>
+                            Par ailleurs, les constantes SSL/TLS (Secure Sockets Layer/Transport Layer Security) ont été améliorées. Enfin, la bibliothèque de chiffrement Mcrypt a été supprimée. Les développeurs de PHP estiment que l’extension Mcrypt a freiné la croissance du langage PHP et l’a déclassé en logiciel abandonné ou « abandonware »
+                            </p>
+                            <p>
+                            La conversion des clés numériques dans les distributions objet/tableau résout un problème rencontré avec le moteur open source Zend Engine qui fait tourner PHP 7. Dans certaines situations, les tables de hachage de tableaux pouvaient contenir des chaînes numériques alors que les tables de hachage d'objets pouvaient contenir des clés entières, ce qui empêchait le code PHP de retrouver les clés. Le correctif apporté par PHP 7.2 convertit les clés des tables de hashage des tableaux et des tables de hachage des objets sont converties dans les bons formats, de sorte que les chaînes de format numériques personnalisées sont traduites en clefs entières, résolvant le problème d’inaccessibilité.
+                            </p>
+                            <p>
+                            Les typages explicites d'objets ou « type hints » corrigent une situation dans laquelle un développeur ne peut pas déclarer une fonction supposée recevoir un objet en tant que paramètre ou déclarer qu'une fonction doit retourner un objet. Le correctif utilise l'objet comme type de paramètre et type de retour. HashContext en tant qu'objet, migre l'extension de hachage pour utiliser une extension objet pour les contextes de hachage au lieu d'utiliser des ressources. A noter aussi une nouvelle alerte ajoutée pour l'appel de la fonction count avec un paramètre scalaire ou nul, ou un objet qui n'implémente pas l'interface « Countable »
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center footer bg-dark">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">A propos</a> •</li>
+        <li class="list-inline-item"><a href="#"> Condition d'utilisation •</a></li>
+        <li class="list-inline-item"> © Copyright Janvier 2021</li>
+      </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
